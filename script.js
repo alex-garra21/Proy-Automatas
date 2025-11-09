@@ -40,7 +40,7 @@ async function evaluarCadena() {
 
   let estado = "q0";
   let i = 0;
-  let pasos = `Descripción instantánea\n-------------------------\nInicio: (q0, ${cadena}, Z)\n`;
+  let pasos = `-----------------------------------\nInicio: (q0, ${cadena}, Z)\n`;
   let pila = ["Z"];
   let nCountSimbolos = 0;
   let mCountSimbolos = 0;
